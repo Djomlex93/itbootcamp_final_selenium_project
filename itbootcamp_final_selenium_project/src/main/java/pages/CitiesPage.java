@@ -14,6 +14,9 @@ public class CitiesPage extends BasePage {
     public WebElement getNewItemButton() {
         return driver.findElement(By.className("btnNewItem"));
     }
+    public WebElement getInputName() {
+        return driver.findElement(By.id("name"));
+    }
 
     public WebElement getSearchInput() {
         return driver.findElement(By.id("search"));
